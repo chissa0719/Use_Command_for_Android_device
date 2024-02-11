@@ -35,6 +35,9 @@ https通信そもそもできてる？って確認やIPアドレス宛の時は�
 
 ## 何かしらのinstall
 
+もともとパッケージがあるものはこれで入るけど，```curl```みたいにパッケージがないものは<br>
+バイナリから拾っていこないとダメっぽい<br>
+
 ```
 # adb install (package_name).apk
 # adb install (package_name).apex
@@ -42,10 +45,10 @@ https通信そもそもできてる？って確認やIPアドレス宛の時は�
 
 ## 参考
 
-- 開発者オプションの設定
+- 開発者オプションの設定<br>
 https://www.uubyte.com/ja/how-to-use-ping-command-on-android.html
 
-- adbコマンド集
+- adbコマンド集<br>
 https://qiita.com/t2low/items/cb37cec5f864c4748e14
 
 <br>
